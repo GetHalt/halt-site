@@ -97,7 +97,8 @@ html {
 
 body {
   background: #fff;
-  font-family: "GothamHTF-Book";
+  font-family: "GothamHTF-Book", 'Gotham SSm A', 'Gotham SSm B';
+  font-weight: 400;
   overflow-x: hidden;
 }
 
@@ -167,7 +168,7 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both;
-  font-family: "Verlag";
+  font-family: "Verlag", 'Verlag A', 'Verlag B';
 }
 
 p {
@@ -1080,4 +1081,20 @@ object {
     display: block;
     text-align: center;
   }
+}
+#mce-success-response {
+  color: #3F9E4A;
+}
+
+#mce-error-response {
+  color: #c00;
+}
+
+.response {
+  margin: 30px 0;
+}
+
+#mc_embed_signup {
+  position: relative;
+  z-index: 2;
 }

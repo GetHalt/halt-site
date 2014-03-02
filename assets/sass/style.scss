@@ -88,9 +88,11 @@ html {
 }
 body {
 	background: #fff;
-	font-family: "GothamHTF-Book";
+	font-family: "GothamHTF-Book", 'Gotham SSm A', 'Gotham SSm B';
+	font-weight: 400;
 	overflow-x: hidden;
 }
+
 article,
 aside,
 details,
@@ -147,7 +149,7 @@ textarea {
 }
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: "Verlag";
+	font-family: "Verlag", 'Verlag A', 'Verlag B';
 }
 p {
 	margin-bottom: 1.5em;
