@@ -116,3 +116,11 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+function redirect_all_to_homepage() {
+	if( ! is_home() ) {
+		wp_redirect( home_url() );
+	}
+}
+add_filter( 'get_header', 'redirect_all_to_homepage' );
