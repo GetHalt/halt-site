@@ -123,4 +123,4 @@ function redirect_all_to_homepage() {
 		wp_redirect( home_url() );
 	}
 }
-add_filter( 'get_header', 'redirect_all_to_homepage' );
+add_filter( 'template_redirect', 'redirect_all_to_homepage' );
