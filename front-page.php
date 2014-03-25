@@ -10,7 +10,7 @@ get_header(); ?>
 	<section class="feature feature--main">
 		<div class="inside">
 			<h2 class="feature__title">A Great theme to start with.</h2>
-			<p class="feature__description">What else could be better than a default theme to start your support portal with? It comes with a full support for <strong>Origin</strong>, a starter theme for Halt, so that you can start in no time.</p>
+			<p class="feature__description">What else could be better than a minimalist, no-frills, starter theme to kick-start your support portal? Halt comes with a full support for the <strong>Origin</strong> theme so that you can start in no time.</p>
 
 			<div class="feature__playground">
 				<div class="feature__playground--header">
@@ -41,8 +41,11 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/feature-1.jpg" alt="" width="180">
 			</figure>
 			<div class="feature__content">
-				<h2 class="feature__title">The Lesser, the better.</h2>
-				<p class="feature__description">Nothing fancy, still handy. With Halt, you can maintain a full fledged knowledebase articles section, so your users don’t have to search for the same thing again. If nothing helps, Tickets to the rescue.</p>
+				<h2 class="feature__title">Less is More</h2>
+				<div class="feature__description">
+					<p>Nothing fancy, still handy. With Halt, you can maintain a full-fledged knowledgebase of support articles, so your users don&rsquo;t have to ask the same questions over and over again.</p>
+					<p>If they can't find what they're looking for: <em>tickets</em> to the rescue. Users submit tickets only when they can&rsquo;t find answers to their questions, minimising the amount of time you and your customer service team spend answering questions.</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -55,7 +58,7 @@ get_header(); ?>
 
 					<div id="mc_embed_signup">
 					<form action="http://halt.us3.list-manage.com/subscribe/post?u=70fb5b0173128bb8fd9c07bc7&amp;id=b3ca3462d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						
+
 					<div class="mc-field-group">
 						<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your Email">
 					</div>
@@ -91,7 +94,7 @@ get_header(); ?>
 					    if (script.readyState && script.onload!==null){
 					        script.onreadystatechange= function () {
 					              if (this.readyState == 'complete') mce_preload_check();
-					        }    
+					        }
 					    }
 					}
 
@@ -165,7 +168,7 @@ get_header(); ?>
 					                                    		this.value = '';
 														    } else {
 														        if (/\[day\]/.test(fields[0].name)){
-					    	                                        this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;									        
+					    	                                        this.value = fields[1].value+'/'+fields[0].value+'/'+fields[2].value;
 														        } else {
 					    	                                        this.value = fields[0].value+'/'+fields[1].value+'/'+fields[2].value;
 						                                        }
@@ -191,12 +194,12 @@ get_header(); ?>
 					                                    });
 					                            });
 					                        return mce_validator.form();
-					                    }, 
+					                    },
 					                    success: mce_success_cb
 					                };
 					      $('#mc-embedded-subscribe-form').ajaxForm(options);
-					      
-					      
+
+
 					    });
 					}
 					function mce_success_cb(resp){
@@ -232,11 +235,11 @@ get_header(); ?>
 					        try{
 					            if (index== -1){
 					                $('#mce-'+resp.result+'-response').show();
-					                $('#mce-'+resp.result+'-response').html(msg);            
+					                $('#mce-'+resp.result+'-response').html(msg);
 					            } else {
 					                err_id = 'mce_tmp_error_msg';
 					                html = '<div id="'+err_id+'" style="'+err_style+'"> '+msg+'</div>';
-					                
+
 					                var input_id = '#mc_embed_signup';
 					                var f = $(input_id);
 					                if (ftypes[index]=='address'){

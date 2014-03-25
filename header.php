@@ -56,10 +56,10 @@
 		</div>
 
 		<div class="inside intro">
-			<h2>Supporting your products should be easy.</h2>
-			<h3><span>Halt</span>, intends to do that.</h3>
+			<h2>Providing support for your products should be easy.</h2>
+			<h3><span>Halt</span>, intends to help you do precisely that.</h3>
 
-			<p>Halt, is a custom help desk based on World’s best publishing software WordPress, which makes it easy to assist your customers right on your site, without much of hassle. With Halt you will have full freedom to build your own Support Forum and starts assisting, right away.</p>
+			<p>Halt, is an customer support solution built on the world’s best content management platform - WordPress. Halt gives you an easy and hassle-free way to assist your customers right from your website and the freedom to build your own Support Forum and assist customers instantly.</p>
 		</div>
 	</header><!-- #masthead -->
 
